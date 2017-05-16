@@ -1,0 +1,68 @@
+{
+    "intents": [
+        {
+            "intent": "인사",
+            "confidence": 0.4783022960543171
+        }
+    ],
+    "entities": [
+        {
+            "entity": "긍정",
+            "location": [
+                0,
+                2
+            ],
+            "value": "ㅇㅇ",
+            "confidence": 1
+        }
+    ],
+    "input": {
+        "text": "ㅇㅇ"
+    },
+    "output": {
+        "log_messages": [],
+        "text": [
+            "iPhone 7 주문이 완료 되었습니다. 잠시 기다리시면 고객님의 휴대폰 번호로 신청서 작성 MMS가 발송 됩니다. \n추가로 주문하시려면 '주문'이라고 말씀해 주세요."
+        ],
+        "nodes_visited": [
+            "node_1_1493954904791",
+            "주문99_주문완료"
+        ]
+    },
+    "context": {
+        "timezone": "Asia/Seoul",
+        "conversation_id": "eb9012b1-b2c0-43bb-b0f7-71035f09cb15",
+        "system": {
+            "dialog_stack": [
+                {
+                    "dialog_node": "root"
+                }
+            ],
+            "dialog_turn_counter": 7,
+            "dialog_request_counter": 7,
+            "_node_output_map": {
+                "챗봇 메인": [
+                    0
+                ],
+                "휴대폰 주문하기": [
+                    0
+                ],
+                "node_2_1493438708435": [
+                    0
+                ],
+                "주문2-1_아이폰7확인": [
+                    0
+                ],
+                "주문99_주문완료": [
+                    0
+                ]
+            },
+            "branch_exited": true,
+            "branch_exited_reason": "completed"
+        },
+        "action": {
+            "command": "order_complete"
+        },
+        "phone_name": "iPhone 7"
+    }
+}
